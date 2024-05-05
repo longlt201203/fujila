@@ -1,0 +1,9 @@
+version: '3.9'
+services:
+  discord_bot:
+    container_name: discord_bot
+    image: longthanhle1122/fujina_bot:1.0.0
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always

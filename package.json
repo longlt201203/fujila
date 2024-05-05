@@ -1,0 +1,17 @@
+{
+  "name": "drisgon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy-commands": "node deploy-commands.js",
+    "start": "node ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "openai": "^4.0.0"
+  }
+}
